@@ -26,13 +26,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+forEach manipulates data but does not return anything while .map does the same thing and returns an array of the same size
+
 2. Explain the difference between a callback and a higher order function.
+
+a callback function is a function that is passed as an argument into a higher order function. in order for a higher order function to execute, the callback function must first execute so that the data in the higher order function can by fully executed
 
 3. What is closure?
 
+closures are functions that can be accessed outside of it's scope because the function will search for meaning if it is not declared in it's scope
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. global binding is the broadest scope of 'this' that is logged to the window
+    2. implicit binding is when the function on the left is referred to by 'this'
+    3. new binding is when 'this' is linked to a main constructor and 'this' adopts that constructor's key value pairs
+    4. explicit binding is when two objects are strictly linked and share the same key value pairs
+
 5. Why do we need super() in an extended class?
+
+the super() allows the constructor to adopt the prototypes from it's inherited parent 
 
 ### Task 1 - Project Set up
 
@@ -48,7 +61,7 @@ Make sure you clone the branch that the TK links to: the vnext branch, NOT maste
 - [ ] Implement the project on your Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
-
+ 
 
 ### Task 2 - Minimum Viable Product
 
